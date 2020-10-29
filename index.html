@@ -32,9 +32,9 @@
       </nav>
       <h1>Launch on LexToken</h1>
       <p>
-        <button data-dh-feature="network" data-dh-property-enable="true">
-          <i>CONNECT</i>
-        </button>
+        <button class="button button1" data-dh-feature="network" data-dh-property-enable="true">
+          <i>Connect</i>
+          </button>
       </p>
       <header>
           <header>
@@ -163,7 +163,7 @@
                       data-dh-property-input-name="_saleSupply"
                     />
                   </section>
-                  <button
+                  <button class="button button1"
                     data-dh-property-invoke="true"
                     data-dh-property-method-id="W2lJ"
                   >
@@ -193,10 +193,10 @@
                         data-dh-property-method-id="4yeh"
                         data-dh-property-outputs="true"
                       >
-                        <pre>⚔️...</pre>
+                        <pre>...</pre>
                       </div>
     
-                      <button
+                      <button class="button button1"
                         data-dh-property-invoke="true"
                         data-dh-property-method-id="4yeh"
                       >
@@ -246,4 +246,31 @@
       );
     </script>
   </body>
+  <head>
+    <style>
+      .button {
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+      }
+
+      .button1 {
+        background-color: white;
+        color: black;
+        border: 2px solid #920de9;
+      }
+
+      .button1:hover {
+        background-color: #920de9;
+        color: white;
+      }
+    </style>
+  </head>
 </html>
