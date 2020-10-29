@@ -30,10 +30,10 @@
           </li>
         </ul>
       </nav>
-      <h1>Launch on LexToken</h1>
+      <h1><i>Launch on LexToken</i></h1>
       <p>
         <button class="button button1" data-dh-feature="network" data-dh-property-enable="true">
-          <i>CONNECT</i>
+          <i>Connect</i>
           </button>
       </p>
       <header>
@@ -46,7 +46,7 @@
               data-dh-property-method-name="launchLexToken"
             >
               <section>
-                <aside>
+                <aside class = "tile">
                     <P align=right><a href="#"><a href = "https://github.com/lexDAO/LexCorpus/blob/master/contracts/token/lextoken/docs/lextokenizer.md">EXPLAINER</a></li></P>
                     <h3>📜
                     <section>
@@ -146,7 +146,7 @@
                   <section>
                     <input
                       type="text"
-                      placeholder="TOKEN RATE PER ETH"
+                      placeholder="TOKENS PER ETH"
                       data-dh-modifier-display-units="ether"
                       data-dh-modifier-contract-units="wei"
                       data-dh-property-method-id="W2lJ"
@@ -173,13 +173,7 @@
               </section>
             </div>
           </header>
-
-        </header>
-        <div>
-          <section><h2>GET LEXDAO TERMS</h2></section>
-          <header>
-            <section>
-              <header>
+          <h2><i>LEXDAO TOKEN TERMS:</i></h2>
                 <div
                   data-dh-feature="customContract"
                   data-dh-property-method-id="4yeh"
@@ -187,29 +181,24 @@
                   data-dh-property-contract-name="LexTokenFactory"
                   data-dh-property-method-name="details"
                 >
-                  <section>
-                    <aside>
                       <div
                         data-dh-property-method-id="4yeh"
                         data-dh-property-outputs="true"
                       >
-                        <pre>...</pre>
-                      </div>
-    
+                        
                       <button class="button button1"
                         data-dh-property-invoke="true"
                         data-dh-property-method-id="4yeh"
                       >
                         ⚔️
                       </button>
-                    </aside>
-                  </section>
-                </div>
+
               </header>
-      <p>
-          Powered by <a href="https://www.dapphero.io">DappHero.io</a>
-      </p>
-    </div>
+    <centered><img src = "https://i.gifer.com/6ePW.gif" alt="global"></centered>
+  </aside>
+    <p>
+        Powered by <a href="https://www.dapphero.io">DappHero.io</a>
+    </p>
     <script
       id="dh-apiKey"
       data-api="1603901903091x443658780789178400"
@@ -264,12 +253,15 @@
       .button1 {
         background-color: white;
         color: black;
-        border: 2px solid #920de9;
+        border: 2px solid #33ccff;
       }
 
       .button1:hover {
-        background-color: #920de9;
+        background-color: #ff99cc;
         color: white;
+      }
+      .tile {
+        background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
       }
     </style>
   </head>
